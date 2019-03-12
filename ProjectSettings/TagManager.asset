@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BackgroundLayer
+  - PlatformLayer
+  - ObsLayer
+  - ObjectLayer
+  - ForgroundLayer
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackgroundLayer
+    uniqueID: 3121910899
+    locked: 0
+  - name: PlatformLayer
+    uniqueID: 730407601
+    locked: 0
+  - name: ObsLayer
+    uniqueID: 2797520515
+    locked: 0
+  - name: ObjectLayer
+    uniqueID: 2142256399
+    locked: 0
+  - name: ForgroundLayer
+    uniqueID: 2044606107
     locked: 0
