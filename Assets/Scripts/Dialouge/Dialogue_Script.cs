@@ -43,12 +43,12 @@ public class Dialogue_Script : MonoBehaviour
         if (dialogueCount > 1)
         {
 
-            DialogueText.GetComponent<TextMesh>().text = "Do ya suck dicks?";
+            DialogueText.GetComponent<TextMesh>().text = "Do you suck tities or vegana?";
             Debug.Log("yes i do");
         }
         else if (dialogueCount < 1)
         {
-            DialogueText.GetComponent<TextMesh>().text = "Hi";
+            DialogueText.GetComponent<TextMesh>().text = "Hi you little bitch";
         }
         Debug.Log(dialogueCount);
     }
