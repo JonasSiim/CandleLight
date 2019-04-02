@@ -78,4 +78,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Darkness: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PlayerPos: {r: -16.593712, g: 2.9985995, b: 0, a: 0}
+    - _PlayerPos: {r: -15.729123, g: 15.60878, b: 0, a: 0}
