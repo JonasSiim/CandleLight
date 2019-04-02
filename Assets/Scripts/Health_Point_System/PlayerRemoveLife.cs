@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TakeBullet : MonoBehaviour
+public class PlayerRemoveLife : MonoBehaviour
 {
  public  void OnTriggerEnter2D(Collider2D collision)
     {
