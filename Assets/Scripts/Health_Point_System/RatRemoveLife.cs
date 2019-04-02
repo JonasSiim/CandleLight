@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RemoveLife : MonoBehaviour
+public class RatRemoveLife : MonoBehaviour
 {
 
     public int Rathealth = 100;

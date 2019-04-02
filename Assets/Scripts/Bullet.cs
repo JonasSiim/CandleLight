@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        RemoveLife rat = hitInfo.GetComponent<RemoveLife>();
+        RatRemoveLife rat = hitInfo.GetComponent<RatRemoveLife>();
         if (rat != null) {
             rat.TakeDamage(damage);
             Destroy(gameObject);
