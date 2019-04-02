@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NPC_Mat
+  m_Name: HopeLightMaterial
   m_Shader: {fileID: 4800000, guid: 3c69a187f5af1614f89ea60622fd4c38, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,9 +40,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: eaf18d0be3812964aa2fd56c4b4b644e, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0.14}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -63,8 +63,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HopeEgde: 3
-    - _HopeRadius: 1
+    - _HopeEgde: 2.86
+    - _HopeRadius: 4.53
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -80,4 +80,3 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PlayerPos: {r: -15.729123, g: 15.60878, b: 0, a: 0}
     - _PlayerPos: {r: -17.302032, g: 2.9985995, b: 0, a: 0}
-    - _PlayerPos: {r: 0, g: 0, b: 0, a: 0}
