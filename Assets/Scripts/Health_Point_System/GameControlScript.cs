@@ -8,7 +8,7 @@ public class GameControlScript : MonoBehaviour
     public static int health;
 
     public static int HeartScript { get; internal set; }
-    public static int RemoveLife { get; internal set; }
+    public static int TakeBullet { get; internal set; }
 
     // Start is called before the first frame update
     void Start()
