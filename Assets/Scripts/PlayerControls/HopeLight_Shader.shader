@@ -4,7 +4,7 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
 		_PlayerPos("Player Position",vector)=(0,0,0,0)
-		_HopeRadius("Hope Light Radius", range(0,20))= 1
+		_HopeRadius("Hope Light Radius", range(0,1000))= 1
 		_HopeEgde("sharpness of Hope Light", range(0,5))= 3
 		_Darkness("Color outside hope light", Color) = (0,0,0,0)
     }
