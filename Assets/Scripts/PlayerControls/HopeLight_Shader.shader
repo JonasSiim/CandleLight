@@ -58,7 +58,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 
-				fixed4 col = 0; //  black = (0,0,0,0);
+				fixed4 col = _Darkness; // Outside color is set to this color;
 				float dist = distance(i.worldPos, _PlayerPos.xyz);
 
 				// Texture of lid area  
