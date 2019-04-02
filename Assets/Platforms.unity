@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 148955067}
   - component: {fileID: 148955066}
   - component: {fileID: 148955065}
+  - component: {fileID: 148955068}
   - component: {fileID: 148955064}
   m_Layer: 0
   m_Name: Rat
@@ -294,10 +295,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 148955063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 002fc32e92d8d40a69d83fef28770d9e, type: 3}
+  m_Script: {fileID: 11500000, guid: 19bf66d6cdd2c40e697586619809953c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rathealth: 100
 --- !u!61 &148955065
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -386,6 +386,19 @@ Transform:
   m_Father: {fileID: 1251003539}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148955068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148955063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002fc32e92d8d40a69d83fef28770d9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rathealth: 100
 --- !u!1001 &149406362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -596,7 +609,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint
   m_TagString: Untagged
-  m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1296,7 +1309,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1828,7 +1841,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (3)
   m_TagString: Untagged
-  m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2029,9 +2042,10 @@ GameObject:
   m_Component:
   - component: {fileID: 817462554}
   - component: {fileID: 817462553}
-  - component: {fileID: 817462552}
   - component: {fileID: 817462556}
+  - component: {fileID: 817462557}
   - component: {fileID: 817462555}
+  - component: {fileID: 817462552}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -2048,20 +2062,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 817462551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42cf367d6f9864d3680d2b21eea9134c, type: 3}
+  m_Script: {fileID: 11500000, guid: 002fc32e92d8d40a69d83fef28770d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrollingPoints:
-  - {fileID: 229204463}
-  - {fileID: 573846893}
-  - {fileID: 1170744686}
-  - {fileID: 729690780}
-  - {fileID: 729690780}
-  patrolRotation: []
-  target: {fileID: 817462554}
-  patrolSpeed: 2
-  rotation: 0
-  currentPoint: 0
+  Rathealth: 100
 --- !u!212 &817462553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2133,10 +2137,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 817462551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 002fc32e92d8d40a69d83fef28770d9e, type: 3}
+  m_Script: {fileID: 11500000, guid: 19bf66d6cdd2c40e697586619809953c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rathealth: 100
 --- !u!61 &817462556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2163,6 +2166,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13, y: 13}
   m_EdgeRadius: 0
+--- !u!114 &817462557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817462551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cf367d6f9864d3680d2b21eea9134c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrollingPoints:
+  - {fileID: 229204463}
+  - {fileID: 573846893}
+  - {fileID: 1170744686}
+  - {fileID: 729690780}
+  patrolRotation: []
+  target: {fileID: 0}
+  patrolSpeed: 2
+  rotation: 0
+  currentPoint: 0
 --- !u!1 &850977311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3412,7 +3437,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (2)
   m_TagString: Untagged
-  m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4837,7 +4862,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558517012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a24e574f594324fde8f9ab07cc296b4d, type: 3}
   m_Name: 

@@ -4,32 +4,31 @@ using UnityEngine;
 
 public class RemoveLife : MonoBehaviour
 {
+
     public int Rathealth = 100;
-   // private readonly Object deathEffect;
-
-    //If the player touches the rat, he gets -1 life point
-    void OnTriggerEnter2D(Collider2D collision)
+    public void TakeDamage(int damage)
     {
-        GameControlScript.health -= 1;
-    }
-
-    public void TakeDamage(int damage) {
         Rathealth -= damage;
         Debug.Log(Rathealth);
 
         if (Rathealth <= 0)
         {
-            Die();        
+            Die();
         }
     }
 
-    void Die () {
-       // Instantiate(deathEffect, transform.position, Quaternion.identity);
+    void Die()
+    {
+        // Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
     public void Update()
     {
-      //  Debug.Log("health is " + Rathealth);
+        //  Debug.Log("health is " + Rathealth);
     }
+
+    //If the player touches the rat, he gets -1 life point
+
+
 }
