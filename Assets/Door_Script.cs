@@ -20,7 +20,8 @@ public class Door_Script : MonoBehaviour
             
             UI.SetActive(true);
             boolSwitch = true;
-           
+            message = "Press E to Unlock";
+
 
 
         }
@@ -31,6 +32,7 @@ public class Door_Script : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             UI.SetActive(false);
+            message = "";
 
         }
     }
@@ -45,13 +47,14 @@ public class Door_Script : MonoBehaviour
     {
         if(boolSwitch == true)//if players stands in the collider
         {
-            message = "Press E to Unlock";
+            
             UI.GetComponent<TextMeshProUGUI>().text = message;
         }
         if (Input.GetKeyDown(KeyCode.E) && PickedUp == true) //if key is pressed and key is picked up
         {
 
             gameObject.SetActive(false);
+            UI.SetActive(false);
             message = "";
 
         }

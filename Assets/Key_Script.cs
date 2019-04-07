@@ -20,6 +20,7 @@ public class Key_Script : MonoBehaviour
         {
             UI.SetActive(true);
             boolSwitch = true;
+            message = "Press E to Pick Up";
         }
     }
 
@@ -28,10 +29,7 @@ public class Key_Script : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             UI.SetActive(false);
-            if (PickedUp == true)
-            {
-                message = "";
-            }
+            message = "";
 
         }
     }
@@ -46,7 +44,7 @@ public class Key_Script : MonoBehaviour
     {
         if (boolSwitch == true)
         {
-            message = "Press E to Pick Up";
+            
             UI.GetComponent<TextMeshProUGUI>().text = message;
             UI.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
@@ -54,6 +52,7 @@ public class Key_Script : MonoBehaviour
                 PickedUp = true;
                 message = "The key has been picked up";
                 gameObject.SetActive(false);
+                UI.SetActive(false);
 
             }
 
