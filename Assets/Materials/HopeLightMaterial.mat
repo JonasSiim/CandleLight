@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: eaf18d0be3812964aa2fd56c4b4b644e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0.14}
     - _MetallicGlossMap:
@@ -63,8 +63,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HopeEgde: 2.86
-    - _HopeRadius: 4.53
+    - _HopeEgde: 3
+    - _HopeRadius: 15
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -78,12 +78,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Darkness: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - _PlayerPos: {r: 19.895847, g: 1.6260514, b: 0, a: 0}
-=======
-    - _PlayerPos: {r: -15.729123, g: 15.60878, b: 0, a: 0}
->>>>>>> de22fcf374535216c8915eb13c725ce308ed00b2
-=======
-    - _PlayerPos: {r: -17.2, g: 2.9985995, b: 0, a: 0}
->>>>>>> 267125d8259d7a0c79603ee5bf5d2f2ad3eec5ee
+    - _PlayerPos: {r: 2.6011965, g: 1.9055514, b: 0, a: 0}

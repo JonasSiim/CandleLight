@@ -64,7 +64,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HopeEgde: 3
-    - _HopeRadius: 1
+    - _HopeRadius: 15
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -78,12 +78,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Darkness: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - _PlayerPos: {r: 19.895847, g: 1.6260514, b: 0, a: 0}
-=======
-    - _PlayerPos: {r: -15.729123, g: 15.60878, b: 0, a: 0}
->>>>>>> de22fcf374535216c8915eb13c725ce308ed00b2
-=======
-    - _PlayerPos: {r: -17.2, g: 2.9985995, b: 0, a: 0}
->>>>>>> 267125d8259d7a0c79603ee5bf5d2f2ad3eec5ee
+    - _PlayerPos: {r: 2.6011965, g: 1.9055514, b: 0, a: 0}
