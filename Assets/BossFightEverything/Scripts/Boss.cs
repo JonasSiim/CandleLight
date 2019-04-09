@@ -45,7 +45,8 @@ public class Boss : MonoBehaviour {
         if (other.CompareTag("Player") && isDead == false) {
             if (timeBtwDamage <= 0) {
                 camAnim.SetTrigger("shake");
-                other.GetComponent<Player>().health -= damage;
+                GameControlScript.health -= 1;
+                // other.GetComponent<Player>().health -= damage;
             }
         } 
     }
