@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControlScript : MonoBehaviour
 {
+    [SerializeField] private string newLevel;
     public GameObject LifePoint1, LifePoint2, LifePoint3;
     public static int health;
 
@@ -47,6 +49,9 @@ public class GameControlScript : MonoBehaviour
                 LifePoint1.gameObject.SetActive(false);
                 LifePoint2.gameObject.SetActive(false);
                 LifePoint3.gameObject.SetActive(false);
+                Destroy(gameObject);
+                SceneManager.LoadScene(newLevel);
+                //Add things that happen when the player dies
                 break;
 
         }

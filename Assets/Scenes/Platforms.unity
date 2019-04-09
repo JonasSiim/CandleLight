@@ -2973,6 +2973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886ae8cf631cd40aaa75115b501df4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newLevel: Menu
   LifePoint1: {fileID: 906453324}
   LifePoint2: {fileID: 1865354918}
   LifePoint3: {fileID: 757126810}
