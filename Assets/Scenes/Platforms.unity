@@ -1516,7 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e179aafbd817244bcbd94160e87f136a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: SampleScene
+  newLevel: BossFight
 --- !u!212 &619652796
 SpriteRenderer:
   m_ObjectHideFlags: 0
