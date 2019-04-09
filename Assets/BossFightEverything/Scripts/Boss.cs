@@ -7,7 +7,7 @@ public class Boss : MonoBehaviour {
 
     public int health;
     public int damage;
-    private float timeBtwDamage = 1.5f;
+    private float timeBtwDamage = 2.0f;
 
 
     public Animator camAnim;
