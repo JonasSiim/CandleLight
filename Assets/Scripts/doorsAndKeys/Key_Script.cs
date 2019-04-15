@@ -9,6 +9,7 @@ public class Key_Script : MonoBehaviour
 {
     //public GameObject keyObject;
     public GameObject UI;
+    public GameObject KeyGraphic;
     //public string door;
     public bool PickedUp;
     private string message;
@@ -29,6 +30,7 @@ public class Key_Script : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             UI.SetActive(false);
+            boolSwitch = false;
             message = "";
 
         }
@@ -45,7 +47,7 @@ public class Key_Script : MonoBehaviour
         if (boolSwitch == true)
         {
             
-            UI.GetComponent<TextMeshProUGUI>().text = message;
+            UI.GetComponentInChildren<TextMeshProUGUI>().text = message;
             UI.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -53,6 +55,7 @@ public class Key_Script : MonoBehaviour
                 message = "The key has been picked up";
                 gameObject.SetActive(false);
                 UI.SetActive(false);
+                KeyGraphic.SetActive(true);
 
             }
 
