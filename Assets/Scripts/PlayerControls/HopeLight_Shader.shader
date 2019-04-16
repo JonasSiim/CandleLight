@@ -2,11 +2,12 @@
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
+        _MainTex ("Lid background", 2D) = "white" {}
 		_PlayerPos("Player Position",vector)=(0,0,0,0)
 		_HopeRadius("Hope Light Radius", range(0,1000))= 1
 		_HopeEgde("sharpness of Hope Light", range(0,5))= 3
-		_Darkness("Color outside hope light", Color) = (0,0,0,0)
+		_Darkness(" background outside hope light", 2D) = "white" {}
+			//_Darkness("Color outside hope light", Color) = (0,0,0,0)
     }
     SubShader
     {
@@ -42,7 +43,8 @@
 			float4 _PlayerPos;
 			float _HopeRadius;
 			float _HopeEgde;
-			float4 _Darkness;
+			sampler2D _Darkness;
+			float4 _Darkness_ST;
 
             v2f vert (appdata v)
             {
@@ -58,7 +60,8 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 
-				fixed4 col = _Darkness; // Outside color is set to this color;
+				fixed4 col = 0;//
+				col = tex2D(_Darkness, i.uv); // Outside color is set to this color;
 				float dist = distance(i.worldPos, _PlayerPos.xyz);
 
 				// Texture of lid area  
@@ -67,7 +70,7 @@
 				}
 				else if (dist > _HopeRadius && dist < _HopeRadius + _HopeEgde) {
 					float blendEgde = dist - _HopeRadius;
-					col = lerp(tex2D(_MainTex, i.uv), _Darkness, blendEgde / _HopeEgde);
+					col = lerp(tex2D(_MainTex, i.uv), tex2D(_Darkness, i.uv), blendEgde / _HopeEgde);
 				}
 
 
