@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 23139592}
   - component: {fileID: 23139593}
   - component: {fileID: 23139594}
+  - component: {fileID: 23139595}
   m_Layer: 8
   m_Name: Boss
   m_TagString: Boss
@@ -271,6 +272,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &23139595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23139588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c67d6aa288454c038a3ab6f54aa2b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  target: {fileID: 1181143331}
+  chaseRange: 3
+  attackRange: 100
+  attackDelay: 1
+  projectile: {fileID: 5051460697732962911, guid: 228a4087998db49b9abc23c5433ef1ef,
+    type: 3}
+  bulletForce: 70
 --- !u!1 &89881925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1067,7 @@ GameObject:
   m_Layer: 0
   m_Name: Shot Point
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1285,7 +1306,7 @@ GameObject:
   m_Layer: 0
   m_Name: Shot Point
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2371,6 +2392,7 @@ GameObject:
   - component: {fileID: 1355947045}
   - component: {fileID: 1355947044}
   - component: {fileID: 1355947043}
+  - component: {fileID: 1355947046}
   m_Layer: 0
   m_Name: EndRight
   m_TagString: Untagged
@@ -2450,6 +2472,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355947041}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1355947046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355947041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e686c27e50937482e9ba0f9827b265ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newLevel: Outro
 --- !u!1 &1391628154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3021,8 +3056,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921461438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.76, y: -3.57, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -16.76, y: -5, z: 0}
+  m_LocalScale: {x: 1, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
