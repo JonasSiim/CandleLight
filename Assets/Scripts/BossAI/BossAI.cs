@@ -21,7 +21,7 @@ public class BossAI : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
         if (distanceToPlayer < attackRange) {
             Vector3 targetDirection = target.position - transform.position;
-            float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg - 90f;
+            float angle = Mathf.Atan2(targetDirection.x, targetDirection.y) * Mathf.Rad2Deg - 90f;
             Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 0 * Time.deltaTime);
 
