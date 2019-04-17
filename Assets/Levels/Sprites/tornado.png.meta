@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9df271d02e17bf5469d3f5dd71c7c625
+guid: 3fbf6d32d0facd140aef0aeed8f44c52
 TextureImporter:
   fileIDToRecycleName:
     21300000: tornado_0
@@ -96,7 +96,7 @@ TextureImporter:
         serializedVersion: 2
         x: 7
         y: 270
-        width: 291
+        width: 292
         height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -105,7 +105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf4f9fb364385d4795eb6c239eb482c
+      spriteID: 9b30c59f59fba4947a57ed0337c72304
       vertices: []
       indices: 
       edges: []
@@ -114,9 +114,9 @@ TextureImporter:
       name: tornado_3
       rect:
         serializedVersion: 2
-        x: 379
+        x: 380
         y: 261
-        width: 289
+        width: 292
         height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -125,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ac3001f9232cb549b07068e3ebaf18a
+      spriteID: e4e53671568ab004f9346066370387a7
       vertices: []
       indices: 
       edges: []
@@ -134,9 +134,9 @@ TextureImporter:
       name: tornado_6
       rect:
         serializedVersion: 2
-        x: 741
+        x: 746
         y: 258
-        width: 293
+        width: 288
         height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e36cfa3150e3db4480f0ebb2d0f2b28
+      spriteID: 473783df62aaf11479070d77bc1b6d63
       vertices: []
       indices: 
       edges: []
@@ -154,9 +154,9 @@ TextureImporter:
       name: tornado_8
       rect:
         serializedVersion: 2
-        x: 1089
+        x: 1095
         y: 254
-        width: 285
+        width: 276
         height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23131e096f94efd46843f8f17b2a9394
+      spriteID: 9de60064a4d6632448ccc8e190d1f8e4
       vertices: []
       indices: 
       edges: []
@@ -174,9 +174,9 @@ TextureImporter:
       name: tornado_11
       rect:
         serializedVersion: 2
-        x: 13
+        x: 16
         y: 18
-        width: 289
+        width: 284
         height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f5451c7767e0e499121bf70dfed038
+      spriteID: 51973b56e561e9043896a41e9b425059
       vertices: []
       indices: 
       edges: []
@@ -194,9 +194,9 @@ TextureImporter:
       name: tornado_14
       rect:
         serializedVersion: 2
-        x: 361
+        x: 365
         y: 19
-        width: 298
+        width: 297
         height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6884286437f7adf4bb3077c18bee99ec
+      spriteID: 5179c491150a4c54abcea101215c3b97
       vertices: []
       indices: 
       edges: []
@@ -214,9 +214,9 @@ TextureImporter:
       name: tornado_18
       rect:
         serializedVersion: 2
-        x: 714
+        x: 721
         y: 18
-        width: 303
+        width: 299
         height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -225,7 +225,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a8b78318e1627d43a2361082a552618
+      spriteID: 6c7b094d592d7494398e9bd6e9fa180b
       vertices: []
       indices: 
       edges: []
@@ -233,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e891b614240e0ac4d80651ac0403cc0b
+    spriteID: 934f09133e944ae4daff228f099f9f41
     vertices: []
     indices: 
     edges: []

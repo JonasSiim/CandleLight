@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: e00e50750704241489262eb0803b334f
+guid: a6a678ce5fe979841aec79be35b2a2ec
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ratcycle_0
-    21300002: ratcycle_1
-    21300004: ratcycle_2
-    21300006: ratcycle_3
-    21300008: ratcycle_4
-    21300010: ratcycle_5
-    21300012: ratcycle_6
-    21300014: ratcycle_7
+    21300000: heart_0
+    21300002: heart_1
+    21300004: heart_2
+    21300006: heart_3
+    21300008: heart_4
+    21300010: heart_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,13 +90,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratcycle_0
+      name: heart_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 44
         y: 41
-        width: 323
-        height: 101
+        width: 202
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,19 +104,99 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aae6ff5a40207b4682405c98ab8a621
+      spriteID: f202d2798cb65cd42a9309e7fbe10e19
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_1
+      name: heart_1
       rect:
         serializedVersion: 2
-        x: 375
+        x: 286
+        y: 45
+        width: 150
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc569f52cac52468ee8047846e8931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 43
+        width: 117
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b3e52accdac147b3a7437597a91e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 42
+        width: 83
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b663eabd5225f40a3eb371e6a6886d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 37
+        width: 109
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e38f27e2369694f8e43bc3a77fc7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_5
+      rect:
+        serializedVersion: 2
+        x: 928
         y: 40
-        width: 334
-        height: 109
+        width: 138
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,127 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454cea8edbb43d34c973d8258d2cde70
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_2
-      rect:
-        serializedVersion: 2
-        x: 755
-        y: 40
-        width: 315
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9b30a1766242d04d841f5350a88632a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_3
-      rect:
-        serializedVersion: 2
-        x: 1077
-        y: 41
-        width: 303
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 056bece4da0456a4e9021f49f8272cc9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_4
-      rect:
-        serializedVersion: 2
-        x: 1417
-        y: 51
-        width: 318
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27450cdc7d8f5604b9db21a7035667a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_5
-      rect:
-        serializedVersion: 2
-        x: 1805
-        y: 49
-        width: 331
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b7807369822e6b43912ca8acb48a006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_6
-      rect:
-        serializedVersion: 2
-        x: 2163
-        y: 51
-        width: 317
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2879bc2462897d4419ccc74045bdde4d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_7
-      rect:
-        serializedVersion: 2
-        x: 2490
-        y: 52
-        width: 310
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0334caa567c95a49a239ecc0c96f803
+      spriteID: 43ed7bfb717fe4c42a777a9014628ec2
       vertices: []
       indices: 
       edges: []
@@ -254,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff9a7ab1695e243418f0a116595eab1b
+    spriteID: d66d9fc75eab43d4aabd3aa8a8b50ce7
     vertices: []
     indices: 
     edges: []
