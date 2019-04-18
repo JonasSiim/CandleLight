@@ -1,15 +1,12 @@
 fileFormatVersion: 2
-guid: e00e50750704241489262eb0803b334f
+guid: 6f437c1588a9d504b87ac94d1d749ebb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ratcycle_0
-    21300002: ratcycle_1
-    21300004: ratcycle_2
-    21300006: ratcycle_3
-    21300008: ratcycle_4
-    21300010: ratcycle_5
-    21300012: ratcycle_6
-    21300014: ratcycle_7
+    21300000: happynpc_0
+    21300002: happynpc_1
+    21300004: happynpc_2
+    21300006: happynpc_3
+    21300008: happynpc_4
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,13 +89,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratcycle_0
+      name: happynpc_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 41
-        width: 323
-        height: 101
+        x: 85
+        y: 37
+        width: 90
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,19 +103,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aae6ff5a40207b4682405c98ab8a621
+      spriteID: e12abfc8f8cf11849b75ddd84b924502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_1
+      name: happynpc_1
       rect:
         serializedVersion: 2
-        x: 375
-        y: 40
-        width: 334
-        height: 109
+        x: 354
+        y: 38
+        width: 111
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454cea8edbb43d34c973d8258d2cde70
+      spriteID: 11e4bda002df8cb4daba51835db3043b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_2
+      name: happynpc_2
       rect:
         serializedVersion: 2
-        x: 755
-        y: 40
-        width: 315
-        height: 116
+        x: 617
+        y: 36
+        width: 138
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b30a1766242d04d841f5350a88632a
+      spriteID: 304d010c3f303124a903d513347c973c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_3
+      name: happynpc_3
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 41
-        width: 303
-        height: 112
+        x: 902
+        y: 35
+        width: 110
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056bece4da0456a4e9021f49f8272cc9
+      spriteID: 39de8af0fa6fa6043936da792c02ed8b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_4
+      name: happynpc_4
       rect:
         serializedVersion: 2
-        x: 1417
-        y: 51
-        width: 318
-        height: 108
+        x: 1190
+        y: 36
+        width: 95
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,67 +183,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27450cdc7d8f5604b9db21a7035667a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_5
-      rect:
-        serializedVersion: 2
-        x: 1805
-        y: 49
-        width: 331
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b7807369822e6b43912ca8acb48a006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_6
-      rect:
-        serializedVersion: 2
-        x: 2163
-        y: 51
-        width: 317
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2879bc2462897d4419ccc74045bdde4d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratcycle_7
-      rect:
-        serializedVersion: 2
-        x: 2490
-        y: 52
-        width: 310
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0334caa567c95a49a239ecc0c96f803
+      spriteID: 11ea293edb34dd54689d67c1e5946cfc
       vertices: []
       indices: 
       edges: []
@@ -254,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff9a7ab1695e243418f0a116595eab1b
+    spriteID: bd8e539056ffe6f4b8e422b3165c808a
     vertices: []
     indices: 
     edges: []

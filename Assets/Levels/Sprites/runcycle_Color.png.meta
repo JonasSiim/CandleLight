@@ -1,15 +1,17 @@
 fileFormatVersion: 2
-guid: e00e50750704241489262eb0803b334f
+guid: 9c603ac00fd80ce46aa60e86e51960ad
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ratcycle_0
-    21300002: ratcycle_1
-    21300004: ratcycle_2
-    21300006: ratcycle_3
-    21300008: ratcycle_4
-    21300010: ratcycle_5
-    21300012: ratcycle_6
-    21300014: ratcycle_7
+    21300000: runcycle_Color_0
+    21300002: runcycle_Color_1
+    21300004: runcycle_Color_2
+    21300006: runcycle_Color_3
+    21300008: runcycle_Color_4
+    21300010: runcycle_Color_5
+    21300012: runcycle_Color_6
+    21300014: runcycle_Color_7
+    21300016: runcycle_Color_8
+    21300018: runcycle_Color_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,13 +94,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratcycle_0
+      name: runcycle_Color_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 41
-        width: 323
-        height: 101
+        x: 73
+        y: 442
+        width: 193
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,19 +108,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aae6ff5a40207b4682405c98ab8a621
+      spriteID: ba5c01b6140f4a74a9dfd41db3f94d8a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_1
+      name: runcycle_Color_1
       rect:
         serializedVersion: 2
-        x: 375
-        y: 40
-        width: 334
-        height: 109
+        x: 305
+        y: 425
+        width: 213
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,19 +128,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454cea8edbb43d34c973d8258d2cde70
+      spriteID: c59b6bf7d83079b4195a4a3684e6527e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_2
+      name: runcycle_Color_2
       rect:
         serializedVersion: 2
-        x: 755
-        y: 40
-        width: 315
-        height: 116
+        x: 581
+        y: 414
+        width: 215
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,19 +148,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b30a1766242d04d841f5350a88632a
+      spriteID: 23dfe2f1e7f8bcd40ba324c824da2f2b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_3
+      name: runcycle_Color_3
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 41
-        width: 303
-        height: 112
+        x: 882
+        y: 400
+        width: 198
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,19 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056bece4da0456a4e9021f49f8272cc9
+      spriteID: 99670d288e59fe64b810aadded842472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_4
+      name: runcycle_Color_4
       rect:
         serializedVersion: 2
-        x: 1417
-        y: 51
-        width: 318
-        height: 108
+        x: 1147
+        y: 390
+        width: 193
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,19 +188,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27450cdc7d8f5604b9db21a7035667a3
+      spriteID: 159d40356f1919a4283782e7631e5c22
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_5
+      name: runcycle_Color_5
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 49
-        width: 331
-        height: 121
+        x: 33
+        y: 77
+        width: 212
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7807369822e6b43912ca8acb48a006
+      spriteID: cfb6bb3c967391449a861cdf837d39b0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_6
+      name: runcycle_Color_6
       rect:
         serializedVersion: 2
-        x: 2163
-        y: 51
-        width: 317
-        height: 116
+        x: 303
+        y: 73
+        width: 216
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,19 +228,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2879bc2462897d4419ccc74045bdde4d
+      spriteID: 5d6814db7df02864a90353e653b8d35f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratcycle_7
+      name: runcycle_Color_7
       rect:
         serializedVersion: 2
-        x: 2490
-        y: 52
-        width: 310
-        height: 116
+        x: 577
+        y: 81
+        width: 222
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,7 +248,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0334caa567c95a49a239ecc0c96f803
+      spriteID: 233c6d04a96c54f4c95c36ef9d994ffc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runcycle_Color_8
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 55
+        width: 195
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46184689c99f3e54a9fb6b4a237e7ebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runcycle_Color_9
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 68
+        width: 190
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ac9f69d79288d4da2b8338803749e9
       vertices: []
       indices: 
       edges: []
@@ -254,7 +296,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff9a7ab1695e243418f0a116595eab1b
+    spriteID: f3223df550558c04f99b34ef2f9c932c
     vertices: []
     indices: 
     edges: []
