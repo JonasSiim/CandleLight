@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public Animator animator;
     float horizontalMove = 0f;
     public float runSpeed = 40f;
     bool jump = false;
@@ -13,6 +14,9 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+        animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
+
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;

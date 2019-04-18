@@ -7,10 +7,8 @@ public class Dialogue_Script : MonoBehaviour
 {
     public GameObject pressUI;
     public GameObject DialogueText;
-    public string[] dialogueElements;
     private bool boolSwitch;
     private int dialogueCount;
-    public int presentChoice;
     // When player approaches NPC
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -28,33 +26,31 @@ public class Dialogue_Script : MonoBehaviour
             pressUI.SetActive(false);
             DialogueText.SetActive(false);
             boolSwitch = false;
-            dialogueCount = -1;
+            dialogueCount = 0;
         }
     }
 
     void Update()
     {
-        if (dialogueCount > -1)
-        {
-            DialogueText.GetComponent<TextMesh>().text = dialogueElements[dialogueCount];
-        }
         if (boolSwitch == true)
         {
-            if (Input.GetKeyDown(KeyCode.E) && dialogueCount < dialogueElements.Length - 1)
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 DialogueText.SetActive(true);
                 dialogueCount++;
             }
         }
-
-        if(dialogueCount == presentChoice)
+        if (dialogueCount > 1)
         {
-            if (Input.GetKeyDown(KeyCode.Y)) { Debug.Log("Candle Saved"); } //close dialogue
-            else if (Input.GetKeyDown(KeyCode.N)) { Debug.Log("Candle not Saved"); } //close dialogue
-            
+
+            DialogueText.GetComponent<TextMesh>().text = "Do you suck tities or vegana?";
+            Debug.Log("yes i do");
         }
-        
-        
+        else if (dialogueCount < 1)
+        {
+            DialogueText.GetComponent<TextMesh>().text = "Hi you little bitch";
+        }
+        Debug.Log(dialogueCount);
     }
 
 }
