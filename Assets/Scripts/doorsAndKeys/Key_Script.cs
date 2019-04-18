@@ -7,15 +7,9 @@ public class Key_Script : MonoBehaviour
 
 
 {
-    //Key objects
-    public GameObject rKey;
-    public GameObject rKeyGraph;
-    public GameObject gKey;
-    public GameObject gKeyGraph;
-    public GameObject yKey;
-    public GameObject yKeyGraph;
-    //UI
+    //public GameObject keyObject;
     public GameObject UI;
+    public GameObject KeyGraphic;
     //public string door;
     public bool PickedUp;
     private string message;
@@ -61,7 +55,7 @@ public class Key_Script : MonoBehaviour
                 message = "The key has been picked up";
                 gameObject.SetActive(false);
                 UI.SetActive(false);
-                //KeyGraphic.SetActive(true);
+                KeyGraphic.SetActive(true);
 
             }
 
