@@ -182,8 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7ca7dee03aee6409806d7f871945b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
-  damage: 5
+  health: 100
   camAnim: {fileID: 519420030}
   healthBar: {fileID: 99754091}
   isDead: 0
@@ -462,9 +461,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 50
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 50
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3047,6 +3046,9 @@ MonoBehaviour:
   LifePoint1: {fileID: 1037696242}
   LifePoint2: {fileID: 1223835153}
   LifePoint3: {fileID: 941658733}
+  LifePoint4: {fileID: 2035874702}
+  LifePoint5: {fileID: 136136688}
+  LifePoint6: {fileID: 767132490}
 --- !u!1 &1782396421
 GameObject:
   m_ObjectHideFlags: 0

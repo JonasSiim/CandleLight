@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Boss : MonoBehaviour {
 
     public int health;
-    public int damage;
+//    public int damage;
     private float timeBtwDamage = 2.0f;
 
 
@@ -23,7 +23,7 @@ public class Boss : MonoBehaviour {
     private void Update()
     {
 
-        if (health <= 25) {
+        if (health <= 50) {
             anim.SetTrigger("stageTwo");
         }
 
