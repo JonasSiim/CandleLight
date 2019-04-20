@@ -6,9 +6,10 @@ public class BossBullet : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
-        {
+        if (collision.transform.CompareTag  ("Player")) {
             GameControlScript.health -= 1;
+
+            Destroy(gameObject);
         }
 
     }
