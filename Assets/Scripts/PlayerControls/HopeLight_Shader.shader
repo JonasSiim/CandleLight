@@ -41,7 +41,7 @@
             sampler2D _MainTex;
             float4 _MainTex_ST;
 			float4 _PlayerPos;
-			float _HopeRadius;
+			uniform float _HopeRadius;
 			float _HopeEgde;
 			sampler2D _Darkness;
 			float4 _Darkness_ST;
@@ -80,4 +80,5 @@
             ENDCG
         }
     }
+		
 }
